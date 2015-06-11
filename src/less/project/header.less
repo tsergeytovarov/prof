@@ -1,0 +1,130 @@
+.header{
+  padding-top: 30px;
+  background: url("../img/bg-index.jpg") no-repeat center top;
+  background-size: cover;
+  min-height: 685px;
+
+  &__top{
+    position: relative;
+    margin-bottom: 150px;
+  }
+
+  &__content{
+    width: 550px;
+  }
+}
+
+.logo{
+  float: left;
+}
+
+.navigation{
+  float: right;
+  text-align: right;
+
+  &__list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 0;
+    margin-top: 20px;
+  }
+
+  &__item{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
+    margin: 0 2px;
+  }
+
+  &__link{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    display: block;
+    padding: 4px 17px;
+    border-radius: 50px;
+
+    &:hover,
+    &--active{
+      background: #d31d15;
+    }
+  }
+}
+
+.telephone{
+  font-size: 24px;
+  line-height: 30px;
+  color: #fff;
+  padding-left: 30px;
+  background: url("../img/ico-telephone.png") no-repeat left center;
+  position: absolute;
+  right: 25px;
+  bottom: -30px;
+}
+
+.main-title{
+  font-family: "neo-b", Arial, sans-serif;
+  font-size: 60px;
+  line-height: 80px;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.back-form{
+  width: 500px;
+
+  &__title{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 24px;
+    line-height: 26px;
+    margin-bottom: 30px;
+  }
+
+  &__form{
+    font-size: 0;
+  }
+
+  input{
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    font-family: "neo-l", Arial, sans-serif;
+    height: 43px;
+    border: 2px solid #d31d15;
+    background: #fff;
+    width: 324px;
+    text-align: center;
+  }
+
+  &__btn{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 20px;
+    line-height: 39px;
+    border: 2px solid #d31d15;
+    box-sizing: border-box;
+    height: 43px;
+    width: 160px;
+    padding-left: 25px;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: left;
+    background: #d31d15 url("../img/ico-arrow-right.png") no-repeat 90% center;
+    transition: all .3s ease;
+
+    &:hover{
+      background: #d31d15 url("../img/ico-arrow-right.png") no-repeat 95% center;
+    }
+  }
+
+  &__text{
+    line-height: 24px;
+    color: #fff;
+    margin-top: 30px;
+    width: 325px;
+  }
+}
