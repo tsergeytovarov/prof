@@ -7,3 +7,78 @@ body{
   padding: 0 10px;
   margin: 0 auto;
 }
+
+.features{
+  padding: 30px;
+  background: #e7e7e7;
+  text-align: center;
+}
+
+.features-item{
+  display: inline-block;
+  vertical-align: top;
+  width: 200px;
+  color: #545454;
+  padding-top: 90px;
+  background-repeat: no-repeat;
+  background-position: center top;
+
+  p{
+    margin: 0;
+  }
+
+  &--1{
+    background-image: url("../img/ico-1.png");
+  }
+
+  &--2{
+    background-image: url("../img/ico-2.png");
+    margin: 0 100px;
+  }
+
+  &--3{
+    background-image: url("../img/ico-3.png");
+  }
+}
+
+.section-title{
+  text-align: center;
+  font-size: 36px;
+  line-height: 44px;
+  color: #545454;
+  font-family: "neo-b", Arial, sans-serif;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+
+  & + p{
+    text-align: center;
+    line-height: 24px;
+    color: #545454;
+    padding-bottom: 50px;
+    width: 680px;
+    margin: 0 auto;
+  }
+}
+
+.work-with{
+  padding: 80px 0;
+
+  ol{
+    list-style: none;
+    font-size: 0;
+  }
+
+  li{
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    font-size: 14px;
+    line-height: 20px;
+    color: #545454;
+
+    &::before{
+      content: counter(ol);
+    }
+  }
+}
