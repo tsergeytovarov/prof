@@ -15,7 +15,7 @@
 <body>
 
   <!-- header -->
-  <header class="header">
+  <header class="header row">
     <div class="container">
       <!-- top line -->
       <div class="header__top row">
@@ -61,6 +61,7 @@
     </div>
   </header>
 
+  <!--  -->
   <div class="features">
     <div class="container row--inline">
       <div class="features-item features-item--1">
@@ -75,17 +76,110 @@
     </div>
   </div>
 
+  <!-- work with -->
   <section class="work-with">
     <div class="container">
       <h2 class="section-title">4 причины сотрудничать:</h2>
       <p>Мы не только оперативно подберем вам до 100 грузчиков и разнорабочих, но и эффективно организуем их рабочий процесс,  гарантируем их адекватность и вежливость</p>
       <ol>
-        <li>Выясним Ваш<br>график работы</li>
-        <li>Каждый день – только<br>нужное количество рабочих</li>
-        <li>Работаем по технологии крупной сети<br>компаний «Персональное решение»</li>
-        <li>Снизим Ваши затраты<br>на рабочую силу на 40%</li>
+        <li class="work-with__list">Выясним Ваш<br>график работы</li>
+        <li class="work-with__list">Каждый день – только<br>нужное количество рабочих</li>
+        <li class="work-with__list">Работаем по технологии крупной сети<br>компаний «Персональное решение»</li>
+        <li class="work-with__list">Снизим Ваши затраты<br>на рабочую силу на 40%</li>
       </ol>
     </div>
   </section>
+
+  <!-- back -->
+  <section class="order">
+    <div class="container">
+      <!-- form -->
+      <form action="this" method="POST" class="back-form back-form--single">
+        <h2 class="back-form__title">ЗАКАЖИТЕ ГРУЗЧИКОВ И РАЗНОРАБОЧИХ</h2>
+        <div class="back-form__form">
+          <input type="text">
+          <button type="submit" class="back-form__btn">Заказать</button>
+        </div>
+        <p class="back-form__text">Оставте свой номер и мы перезвоним вам. Либо позвоните по номеру <span>260-40-50</span></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- work with -->
+  <section class="work-with">
+    <div class="container">
+      <h2 class="section-title">С кем мы работаем:</h2>
+      <p>Более 120 предприятий уже сотрудничают с нами</p>
+      <div class="row row--inline text-center">
+        <figure class="icon">
+          <div class="icon__image">картинка</div>
+          <figurecaption class="icon__text">Стройки</figurecaption>
+        </figure>
+        <figure class="icon">
+          <div class="icon__image">картинка</div>
+          <figurecaption class="icon__text">Склады</figurecaption>
+        </figure>
+        <figure class="icon">
+          <div class="icon__image">картинка</div>
+          <figurecaption class="icon__text">Производства</figurecaption>
+        </figure>
+        <figure class="icon">
+          <div class="icon__image">картинка</div>
+          <figurecaption class="icon__text">Фабрики</figurecaption>
+        </figure>
+        <figure class="icon">
+          <div class="icon__image">картинка</div>
+          <figurecaption class="icon__text">Заводы</figurecaption>
+        </figure>
+        <figure class="icon">
+          <div class="icon__image">картинка</div>
+          <figurecaption class="icon__text">Магазины</figurecaption>
+        </figure>
+        <figure class="icon">
+          <div class="icon__image">картинка</div>
+          <figurecaption class="icon__text">Супермаркеты</figurecaption>
+        </figure>
+        <figure class="icon">
+          <div class="icon__image">картинка</div>
+          <figurecaption class="icon__text">Гипермаркеты</figurecaption>
+        </figure>
+        <figure class="icon">
+          <div class="icon__image">картинка</div>
+          <figurecaption class="icon__text">Порты</figurecaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- map -->
+  <div class="map" id="map-canvas"></div>
+
+  <!-- back -->
+  <section class="order">
+    <div class="container">
+      <!-- form -->
+      <form action="this" method="POST" class="back-form back-form--single">
+        <h2 class="back-form__title">ЗАКАЖИТЕ ГРУЗЧИКОВ И РАЗНОРАБОЧИХ</h2>
+        <div class="back-form__form">
+          <input type="text">
+          <button type="submit" class="back-form__btn">Заказать</button>
+        </div>
+        <p class="back-form__text">Оставте свой номер и мы перезвоним вам. Либо позвоните по номеру <span>260-40-50</span></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <footer class="main-footer">
+    <div class="container row">
+      <div class="logo">
+        <img src="img/logo-footer.png" alt="">
+      </div>
+      <p class="main-footer__text">ООО «ПрофОтряд», 2015<br>Хотите такой же бизнес с прибылью 150 000 руб./мес? Заходите на <a href="prconsult.bz">prconsult.bz</a></p>
+    </div>
+  </footer>
+
+  <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;signed_in=true"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
