@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <!--
+   ____  ____  ____   ___  ____  _  _  ____   __  ____   __   _  _
+  / ___)(  __)(  _ \ / __)(  __)( \/ )(  _ \ /  \(  _ \ /  \ / )( \
+  \___ \ ) _)  )   /( (_ \ ) _)  )  /  ) __/(  O )) __/(  O )\ \/ /
+  (____/(____)(__\_) \___/(____)(__/  (__)   \__/(__)   \__/  \__/
+  -->
+  <meta charset="utf-8">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Проф отряд</title>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+
+  <!-- header -->
+  <header class="header row header--second header--vacancy ">
+    <div class="container">
+      <!-- top line -->
+      <div class="header__top row">
+        <!-- logo -->
+        <figure class="logo">
+          <a href="index.html">
+            <img src="img/logo.png" alt="">
+          </a>
+        </figure>
+        <!-- navigation -->
+        <nav class="navigation">
+          <ul class="navigation__list">
+            <li class="navigation__item">
+              <a href="index.html" class="navigation__link">Главная</a>
+            </li>
+            <li class="navigation__item">
+              <a href="razno.html" class="navigation__link">Разнорабочие</a>
+            </li>
+            <li class="navigation__item">
+              <a href="gruz.html" class="navigation__link ">Грузчики</a>
+            </li>
+            <li class="navigation__item">
+              <a href="vacancy.html" class="navigation__link navigation__link--active">Вакансии</a>
+            </li>
+          </ul>
+        </nav>
+        <!-- telephone -->
+        <div class="telephone">206-40-45</div>
+      </div>
+
+      <!-- content -->
+      <div class="header__content">
+        <h1 class="main-title">Требуются<br>Грузчики и разнорабочии</h1>
+
+        <!-- form -->
+        <form action="this" method="POST" class="back-form">
+          <div class="back-form__title">Бесплатная консультанция специалиста</div>
+          <div class="back-form__form">
+            <input type="text">
+            <button type="submit" class="back-form__btn">Заказать</button>
+          </div>
+          <p class="back-form__text">Оставте свой номер и мы перезвоним вам. Либо позвоните по номеру 260-40-50</p>
+        </form>
+      </div>
+    </div>
+  </header>
+
+  <!--  -->
+  <div class="features features--vacancy">
+    <div class="container row--inline">
+      <div class="features-item features-item--4">
+        <p>Работа в удобное время</p>
+      </div>
+      <div class="features-item features-item--5">
+        <p>Рядом с домом</p>
+      </div>
+      <div class="features-item features-item--6">
+        <p>Еженедельные выплаты</p>
+      </div>
+      <div class="features-item features-item--7">
+        <p>Работа в колективе</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- map -->
+  <div class="map" id="map-canvas"></div>
+
+  <!-- back -->
+  <section class="order">
+    <div class="container">
+      <!-- form -->
+      <form action="this" method="POST" class="back-form back-form--single">
+        <h2 class="back-form__title">ЗАКАЖИТЕ ГРУЗЧИКОВ И РАЗНОРАБОЧИХ</h2>
+        <div class="back-form__form">
+          <input type="text">
+          <button type="submit" class="back-form__btn">Заказать</button>
+        </div>
+        <p class="back-form__text">Оставте свой номер и мы перезвоним вам. Либо позвоните по номеру <span>260-40-50</span></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <footer class="main-footer">
+    <div class="container row">
+      <div class="logo">
+        <img src="img/logo-footer.png" alt="">
+      </div>
+      <p class="main-footer__text">ООО «ПрофОтряд», 2015<br>Хотите такой же бизнес с прибылью 150 000 руб./мес? Заходите на <a href="prconsult.bz">prconsult.bz</a></p>
+    </div>
+  </footer>
+
+  <div class="modal__overlay"></div>
+  <div class="modal__content">
+    <a href="#" class="modal__close"></a>
+    <h2 class="modal__title">Спасибо!</h2>
+    <p class="modal__text">Ваша хаявка принята. Мы вам перезвоним..</p>
+  </div>
+
+  <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;signed_in=true"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
